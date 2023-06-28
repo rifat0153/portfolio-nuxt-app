@@ -12,17 +12,29 @@ export default defineNuxtConfig({
 
   css: ["~/assets/css/main.css"],
 
+  modules: ["@nuxtjs/google-fonts", "@pinia/nuxt"],
+
+  imports: {
+    dirs: ["./stores"],
+  },
+
+  googleFonts: {
+    families: {
+      Roboto: true,
+      "Josefin+Sans": true,
+      Lato: [100, 300],
+      Raleway: {
+        wght: [100, 400],
+        ital: [100],
+      },
+    },
+  },
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
-  },
-
-  modules: ["@pinia/nuxt"],
-
-  imports: {
-    dirs: ["./stores"],
   },
 
   pinia: {

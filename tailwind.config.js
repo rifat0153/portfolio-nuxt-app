@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: [
     "./components/**/*.{js,vue,ts}",
     "./layouts/**/*.vue",
@@ -9,7 +10,14 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        roboto: "roboto",
+        lato: "lato",
+        raleway: "raleway",
+        "Josefin+Sans": "Josefin Sans",
+      },
+    },
   },
   plugins: [],
 };
