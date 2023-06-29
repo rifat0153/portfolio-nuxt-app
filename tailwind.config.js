@@ -11,6 +11,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        "7xl": "5rem",
+        md: "1.125rem",
+      },
       fontFamily: {
         roboto: "roboto",
         lato: "lato",

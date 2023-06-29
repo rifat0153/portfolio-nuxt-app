@@ -12,7 +12,7 @@ export default defineNuxtConfig({
 
   css: ["~/assets/css/main.css"],
 
-  modules: ["@nuxtjs/google-fonts", "@pinia/nuxt"],
+  modules: ["nuxt-icon", "@nuxtjs/google-fonts", "@pinia/nuxt"],
 
   imports: {
     dirs: ["./stores"],

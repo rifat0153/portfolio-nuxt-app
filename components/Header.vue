@@ -16,7 +16,7 @@ const toggleDarkMode = () => {
 
 <template>
   <div
-    class="font-roboto flex w-full items-center justify-between gap-4 px-10 py-4 transition-colors duration-500 dark:bg-gray-900 dark:text-gray-200"
+    class="flex w-full items-center justify-between gap-4 border-b-[1px] px-10 py-4 font-roboto transition-colors duration-500 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200"
   >
     <p class="font-burtons font-alegreya text-2xl font-bold leading-none">
       Dev Portfolio
@@ -25,7 +25,7 @@ const toggleDarkMode = () => {
     <div class="flex items-center gap-8">
       <button @click="toggleDarkMode">
         <svg
-          class="h-5 w-5 dark:fill-white fill-black"
+          class="h-5 w-5 fill-black dark:fill-white"
           viewBox="0 0 35 35"
           data-name="Layer 2"
           id="Layer_2"

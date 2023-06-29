@@ -3,12 +3,10 @@
     <header>
       <Header />
     </header>
-    <!-- <header>
-      <nuxt-link to="/">Home</nuxt-link> |
-      <nuxt-link to="/about">About</nuxt-link>
-    </header> -->
 
-    <main>
+    <main
+      class="mx-auto w-full px-4 pb-40 transition-colors duration-500 dark:bg-gray-900 dark:text-gray-200"
+    >
       <slot />
     </main>
 
