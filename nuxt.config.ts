@@ -21,6 +21,8 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       Roboto: true,
+      Alegreya: true,
+      Inter: true,
       "Josefin+Sans": true,
       Lato: [100, 300],
       Raleway: {

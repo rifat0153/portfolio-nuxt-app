@@ -16,6 +16,8 @@ module.exports = {
         md: "1.125rem",
       },
       fontFamily: {
+        inter: "inter",
+        alegreya: "alegreya",
         roboto: "roboto",
         lato: "lato",
         raleway: "raleway",
