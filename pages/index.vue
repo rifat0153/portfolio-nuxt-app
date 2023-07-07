@@ -35,4 +35,6 @@ useHead({
   <ProfileImage />
 
   <Experience />
+
+  <TechnologyList />
 </template>
