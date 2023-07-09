@@ -1,7 +1,7 @@
 <template>
   <p class="pt-10 text-2xl font-medium">Experience</p>
 
-  <p class="pb-10 pt-2 text-base leading-8 lg:pb-20">
+  <p class="pb-10 pt-4 text-base leading-8 lg:pb-20">
     As a professional developer, I offer a wide range of services to my clients.
     My expertise includes full-stack web development using technologies such as
     <span class="font-medium text-cyan-600">Vue 3</span> and
@@ -27,14 +27,14 @@
     current with industry trends.
   </p>
 
-  <p className="text-2xl font-medium">Leadership Experience</p>
+  <p class="text-2xl font-medium">Leadership Experience</p>
 
-  <p className="pt-2 pb-10 text-base leading-8 lg:pb-20">
+  <p class="pb-10 pt-4 text-base leading-8 lg:pb-20">
     I have lead a small team of developers in a startup based in Bangladesh. I
     have successfully managed the team and delivered the project on time. I
     hepled junior developers write
-    <span className="font-medium text-cyan-600"> clean </span>
-    and <span className="font-medium text-cyan-600"> maintable </span>
+    <span class="font-medium text-cyan-600"> clean </span>
+    and <span class="font-medium text-cyan-600"> maintable </span>
     code. This experience has helped me develop strong leadership skills and the
     ability to work well in a team environment.
   </p>
