@@ -1,3 +1,5 @@
+const colors = require("tailwindcss/colors");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: "class",
@@ -10,7 +12,15 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
+    colors: {
+      transparent: "transparent",
+      current: "currentColor",
+      primary: colors.blue,
+    },
     extend: {
+      colors: {
+        transparent: "transparent",
+      },
       fontSize: {
         "7xl": "5rem",
         md: "1.125rem",
@@ -22,6 +32,7 @@ module.exports = {
         lato: "lato",
         raleway: "raleway",
         "Josefin+Sans": "Josefin Sans",
+        "league-spartan": "League Spartan",
       },
     },
   },

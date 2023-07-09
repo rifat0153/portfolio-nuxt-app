@@ -16,11 +16,17 @@ const toggleDarkMode = () => {
 
 <template>
   <div
-    class="flex w-full items-center justify-between gap-4 border-b-[1px] px-10 py-4 font-roboto transition-colors duration-500 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200"
+    class="flex w-full items-center justify-between gap-4 border-b-[1px] px-10 py-4 font-mono transition-colors duration-500 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200"
   >
-    <p class="font-burtons font-alegreya text-2xl font-bold leading-none">
-      Dev Portfolio
-    </p>
+    <p class="text-2xl font-bold leading-none">Dev Portfolio</p>
+
+    <div
+      class="flex items-center justify-center gap-8 text-2xl font-semibold text-gray-700"
+    >
+      <p>Projects</p>
+
+      <p>Contact</p>
+    </div>
 
     <div class="flex items-center gap-8">
       <button @click="toggleDarkMode">
