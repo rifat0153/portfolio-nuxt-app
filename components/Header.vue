@@ -1,6 +1,6 @@
 <script setup lang="ts">
-const cvLink =
-  "https://firebasestorage.googleapis.com/v0/b/portfolio-6b79f.appspot.com/o/CV%20-%20Mahbubur%20Rahman%20Jan%2026%20V1%20(1).pdf?alt=media&token=6bfa50b9-3c54-41cd-8f74-58253c9420ff";
+const config = useRuntimeConfig();
+const cvLink = config.public.cvLink;
 
 const toggleDarkMode = () => {
   const html = document.querySelector("html")!;

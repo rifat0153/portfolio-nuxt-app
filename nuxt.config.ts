@@ -2,6 +2,12 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
+  runtimeConfig: {
+    public: {
+      cvLink: "",
+    },
+  },
+
   pages: true,
 
   components: true,
