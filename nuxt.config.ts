@@ -2,15 +2,19 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
+  experimental: {
+    typedPages: true,
+  },
+
   app: {
     pageTransition: {
       name: "fade", // default
       mode: "out-in", // default
     },
-    // layoutTransition: {
-    //   name: "layout", // default
-    //   mode: "out-in", // default
-    // },
+    layoutTransition: {
+      name: "layout", // default
+      mode: "out-in", // default
+    },
   },
 
   runtimeConfig: {
@@ -23,13 +27,16 @@ export default defineNuxtConfig({
 
   components: true,
 
-  experimental: {
-    typedPages: true,
-  },
+  modules: [
+    "nuxt-icon",
+    "@nuxtjs/color-mode",
+    "@nuxtjs/google-fonts",
+    "@pinia/nuxt",
+  ],
+
+  colorMode: { classSuffix: "" },
 
   css: ["~/assets/css/main.css"],
-
-  modules: ["nuxt-icon", "@nuxtjs/google-fonts", "@pinia/nuxt"],
 
   imports: {
     dirs: ["./stores"],
