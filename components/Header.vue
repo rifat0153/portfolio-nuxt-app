@@ -16,22 +16,24 @@ const toggleDarkMode = () => {
 
 <template>
   <div
-    class="flex w-full items-center justify-between gap-4 border-b-[1px] px-10 py-4 font-mono transition-colors duration-500 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200"
+    class="dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200 flex w-full items-center justify-between gap-4 border-b-[1px] px-10 py-4 font-mono transition-colors duration-500"
   >
-    <p class="text-2xl font-bold leading-none">Dev Portfolio</p>
+    <NuxtLink to="/" class="text-2xl font-bold leading-none"
+      >Dev Portfolio</NuxtLink
+    >
 
     <div
-      class="flex items-center justify-center gap-8 text-2xl font-semibold text-gray-700"
+      class="text-gray-700 flex items-center justify-center gap-8 text-2xl font-semibold"
     >
-      <p>Projects</p>
+      <NuxtLink to="/projects">Projects</NuxtLink>
 
-      <p>Contact</p>
+      <NuxtLink>Contact</NuxtLink>
     </div>
 
     <div class="flex items-center gap-8">
       <button @click="toggleDarkMode">
         <svg
-          class="h-5 w-5 fill-black dark:fill-white"
+          class="fill-black dark:fill-white h-5 w-5"
           viewBox="0 0 35 35"
           data-name="Layer 2"
           id="Layer_2"
@@ -52,7 +54,7 @@ const toggleDarkMode = () => {
       </button>
 
       <NuxtLink
-        class="rounded-sm bg-gradient-to-r from-cyan-500 to-teal-500 px-2 py-1 leading-none"
+        class="from-cyan-500 to-teal-500 rounded-sm bg-gradient-to-r px-2 py-1 leading-none"
         :to="cvLink"
         target="_blank"
       >

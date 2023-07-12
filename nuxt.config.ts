@@ -2,6 +2,17 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
+  app: {
+    pageTransition: {
+      name: "fade", // default
+      mode: "out-in", // default
+    },
+    // layoutTransition: {
+    //   name: "layout", // default
+    //   mode: "out-in", // default
+    // },
+  },
+
   runtimeConfig: {
     public: {
       cvLink: "",

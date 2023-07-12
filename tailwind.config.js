@@ -12,14 +12,11 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
-    colors: {
-      transparent: "transparent",
-      current: "currentColor",
-      primary: colors.blue,
-    },
     extend: {
       colors: {
         transparent: "transparent",
+        current: "currentColor",
+        primary: colors.blue,
       },
       fontSize: {
         "7xl": "5rem",

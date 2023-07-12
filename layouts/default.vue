@@ -5,7 +5,7 @@
     </header>
 
     <main
-      class="w-full px-4 pb-40 font-inter font-medium transition-colors duration-500 dark:bg-gray-900 dark:text-gray-200"
+      class="dark:bg-gray-900 dark:text-gray-200 w-full px-4 pb-40 font-inter font-medium transition-colors duration-500"
     >
       <div class="mx-auto max-w-5xl">
         <slot />

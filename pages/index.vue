@@ -28,19 +28,21 @@ useHead({
 </script>
 
 <template>
-  <div class="grid h-[calc(100vh-36px)] grid-cols-2">
-    <div class="flex items-center justify-center">
-      <ProfileSummary />
+  <div>
+    <div class="grid h-[calc(100vh-36px)] grid-cols-2">
+      <div class="flex items-center justify-center">
+        <ProfileSummary />
+      </div>
+
+      <div class="flex items-center justify-center">
+        <ProfileImage />
+      </div>
     </div>
 
-    <div class="flex items-center justify-center">
-      <ProfileImage />
-    </div>
+    <SocialLinks />
+
+    <Experience />
+
+    <TechnologyList />
   </div>
-
-  <SocialLinks />
-
-  <Experience />
-
-  <TechnologyList />
 </template>
