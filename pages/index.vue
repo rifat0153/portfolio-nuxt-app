@@ -29,10 +29,10 @@ useHead({
 
 <template>
   <div>
+    <ProfileSummary />
+
     <div class="grid h-[calc(100vh-36px)] grid-cols-2">
-      <div class="flex items-center justify-center">
-        <ProfileSummary />
-      </div>
+      <div class="flex items-center justify-center"></div>
 
       <div class="flex items-center justify-center">
         <ProfileImage />

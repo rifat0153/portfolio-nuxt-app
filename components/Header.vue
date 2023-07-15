@@ -5,14 +5,14 @@ const cvLink = config.public.cvLink;
 
 <template>
   <div
-    class="border-b-[1px] bg-purple-700 px-10 py-4 font-mono leading-none text-white transition-colors duration-500 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200"
+    class="border-b-[1px] border-appbar bg-appbar px-10 py-3 font-sans font-medium leading-4 text-white duration-500 dark:border-appbar dark:bg-appbar dark:text-gray-200"
   >
     <div class="mx-auto flex w-full max-w-5xl items-center justify-between">
       <div>
         <NuxtLink to="/" class="text-2xl font-bold"> mahbubur.dev </NuxtLink>
       </div>
 
-      <div class="flex items-center gap-4 text-md lg:gap-8">
+      <div class="flex items-center gap-6 text-md lg:gap-10">
         <NuxtLink to="/projects">Projects</NuxtLink>
 
         <NuxtLink to="/contacts">Contact</NuxtLink>

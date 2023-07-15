@@ -13,10 +13,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      transitionProperty: {
+        height: "height",
+        width: "width",
+        spacing: "margin, padding",
+      },
       colors: {
         transparent: "transparent",
         current: "currentColor",
         primary: colors.blue,
+        appbar: colors.purple[700],
       },
       fontSize: {
         "7xl": "5rem",
