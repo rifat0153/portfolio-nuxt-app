@@ -2,7 +2,7 @@
   <div class="pt-40 font-inter">
     <AboutSection />
 
-    <div class="mt-10 pb-10">
+    <div class="mt-20 pb-10">
       <SkillList />
     </div>
 

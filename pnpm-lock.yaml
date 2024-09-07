@@ -8,6 +8,9 @@ dependencies:
   '@tailwindcss/container-queries':
     specifier: ^0.1.1
     version: 0.1.1(tailwindcss@3.4.10)
+  '@vueuse/core':
+    specifier: ^11.0.3
+    version: 11.0.3(vue@3.5.3)
   nuxt:
     specifier: ^3.13.0
     version: 3.13.1(vite@5.4.3)
@@ -22,6 +25,9 @@ devDependencies:
   '@formkit/auto-animate':
     specifier: ^0.8.2
     version: 0.8.2
+  '@iconify-json/devicon':
+    specifier: ^1.2.0
+    version: 1.2.0
   '@nuxt/icon':
     specifier: ^1.5.1
     version: 1.5.1(vite@5.4.3)(vue@3.5.3)
@@ -949,6 +955,12 @@ packages:
     resolution: {integrity: sha512-SwPWfeRa5veb1hOIBMdzI+73te5puUBHmqqaF1Bu7FjvxlYSz/kJcZKSa9Cg60zL0uRNeJL2SbRxV6Jp6Q1nFQ==}
     dev: true
 
+  /@iconify-json/devicon@1.2.0:
+    resolution: {integrity: sha512-SIXfetfS8uSC5oZasGn0FtPSIeryriUNXK2kqvMFK2zeSKTRojbsubLdjmxUJcJ5dlBv3M6nVTB+P3u8jlckLA==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /@iconify/collections@1.0.457:
     resolution: {integrity: sha512-hn1THjlKkFxl8WFkszAWMQRviZqWCSCIPnjov0lWOuG4SWyBmdtTjAnCaWaSZVS9BbpwLAb1444gItnbnWY3Kg==}
     dependencies:
@@ -1829,7 +1841,6 @@ packages:
 
   /@types/web-bluetooth@0.0.20:
     resolution: {integrity: sha512-g9gZnnXVq7gM7v3tJCWV/qw7w+KeOlSHAhgF9RytFyifW6AF61hdT2ucrYhPq9hLs5JIryeupHV3qGk95dH9ow==}
-    dev: true
 
   /@unhead/dom@1.10.4:
     resolution: {integrity: sha512-ehMy9k6efo4GTLmiP27wCtywWYdiggrP3m7h6kD/d1uhfORH3yCgsd4yXQnmDoSbsMyX6GlY5DBzy5bnYPp/Xw==}
@@ -2075,11 +2086,9 @@ packages:
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
-    dev: true
 
   /@vueuse/metadata@11.0.3:
     resolution: {integrity: sha512-+FtbO4SD5WpsOcQTcC0hAhNlOid6QNLzqedtquTtQ+CRNBoAt9GuV07c6KNHK1wCmlq8DFPwgiLF2rXwgSHX5Q==}
-    dev: true
 
   /@vueuse/nuxt@11.0.3(nuxt@3.13.1)(vue@3.5.3):
     resolution: {integrity: sha512-1tZGM9lvFl6HqmSQNM6hsHbAzLkBitoh8RsVC8kIG/93d3Pb5dEqUdt1k+OfHyR8V2rfSOwCfJx+wlUTlY0A2g==}
@@ -2108,7 +2117,6 @@ packages:
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
-    dev: true
 
   /abbrev@1.1.1:
     resolution: {integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==}
@@ -6263,7 +6271,6 @@ packages:
         optional: true
     dependencies:
       vue: 3.5.3
-    dev: true
 
   /vue-devtools-stub@0.1.0:
     resolution: {integrity: sha512-RutnB7X8c5hjq39NceArgXg28WZtZpGc3+J16ljMiYnFhKvd8hITxSWQSQ5bvldxMDU6gG5mkxl1MTQLXckVSQ==}
