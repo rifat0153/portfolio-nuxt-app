@@ -10,11 +10,11 @@
       <div class="space-y-0.5 font-semibold">
         <p class="text-xl lg:text-2xl">Mahbubur Rahman</p>
 
-        <p class="text-gray-700">Product-focused Full-Stack Developer</p>
+        <p class="text-gray-500">Product-focused Full-Stack Developer</p>
 
         <NuxtLink
           href="mailto:rifat0153@gmail.com"
-          class="text-gray-500 text-sm"
+          class="text-gray-400 text-sm"
         >
           rifat0153@gmail.com
         </NuxtLink>
