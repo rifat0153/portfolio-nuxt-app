@@ -14,7 +14,6 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "@nuxtjs/tailwindcss",
     "@formkit/auto-animate",
-    "@nuxt/eslint",
     "@nuxtjs/google-fonts",
     "@nuxt/icon",
     "@nuxt/image",
