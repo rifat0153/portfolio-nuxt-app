@@ -10,8 +10,16 @@
 
       <!-- Second col -->
       <div>
-        <NuxtLink :to="e.company.url" class="font-semibold text-gray-800">
-          <p>{{ e.title }} - {{ e.company.name }}</p>
+        <NuxtLink
+          :to="e.company.url"
+          target="_blank"
+          external
+          class="flex flex-nowrap items-center font-semibold text-gray-800"
+        >
+          <p>
+            {{ e.title }} - {{ e.company.name }}
+            <Icon name="mdi:external-link" class="w-3 h-3 inline-block" />
+          </p>
         </NuxtLink>
 
         <p class="text-gray-700 text-sm">{{ e.location }}</p>

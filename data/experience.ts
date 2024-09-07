@@ -42,7 +42,7 @@ export const experiences: Experience[] = [
     title: "Flutter Developer",
     company: {
       name: "RSI LAB",
-      url: "https://www.rsilab.com",
+      url: "https://www.rsi-lab.com/",
     },
     location: "Dhaka, Bangladesh",
     startDate: "Nov 2021",
@@ -63,7 +63,7 @@ export const experiences: Experience[] = [
     title: "Junior Software Developer",
     company: {
       name: "Plan B Insights",
-      url: "https://www.planbinsights.com",
+      url: "https://www.linkedin.com/company/planbinsights/posts/?feedView=all",
     },
     location: "Dhaka, Bangladesh",
     startDate: "Dec 2020",
