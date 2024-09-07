@@ -1,0 +1,22 @@
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+  compatibilityDate: "2024-04-03",
+  devtools: { enabled: true },
+  experimental: { typedPages: true },
+  components: true,
+  pages: true,
+  googleFonts: {
+    families: {
+      Inter: [400, 500, 600, 700],
+    },
+  },
+  modules: [
+    "@vueuse/nuxt",
+    "@nuxtjs/tailwindcss",
+    "@formkit/auto-animate",
+    "@nuxt/eslint",
+    "@nuxtjs/google-fonts",
+    "@nuxt/icon",
+    "@nuxt/image",
+  ],
+});
