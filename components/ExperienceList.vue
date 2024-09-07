@@ -4,7 +4,7 @@
   <template v-for="e in experiences" :key="e.id">
     <div class="@container grid grid-cols-[auto,1fr] gap-6 pb-10">
       <!-- First col: start date - end date -->
-      <p class="text-nowrap text-sm pt-1 font-semibold text-gray-700">
+      <p class="text-nowrap text-sm pt-1 font-semibold text-gray-500">
         {{ e.startDate }} - {{ e.endDate }}
       </p>
 
