@@ -125,7 +125,6 @@ const filteredSkills = computed<Skill[]>(() => {
 watch(
   () => filteredSkills.value,
   () => {
-    console.log("filteredSkills changed");
     _addRemoveHoverClass();
   },
   { flush: "post" }
@@ -139,8 +138,6 @@ function shuffleSkills() {
 }
 
 function _addRemoveHoverClass() {
-  console.log("Adding hover class" + card.value.length);
-
   // remove all the existing watch handlers
   watchHandlers.forEach((stopWatch) => stopWatch());
 
@@ -158,8 +155,6 @@ function _addRemoveHoverClass() {
 
   // remove all the existing hover classes
   cards?.forEach((el) => {
-    console.log("Card is: " + el.innerText);
-
     el.classList.remove("card-hover");
     el.classList.remove("adjacent-card");
   });
