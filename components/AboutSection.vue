@@ -25,8 +25,8 @@
 
     <p>
       I am a full-stack developer with a passion for building products that
-      people love. I have experience working with the following technologies
-      below.
+      people love. I have 4+ years of experience in web and mobile app
+      development.
     </p>
   </div>
 </template>

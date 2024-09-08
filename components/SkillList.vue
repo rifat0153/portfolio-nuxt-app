@@ -1,4 +1,6 @@
 <template>
+  <p class="mb-10 font-semibold">Core Skills</p>
+
   <div class="grid grid-cols-4 md:grid-cols-5 gap-2 skew-y-2">
     <div
       v-for="(skill, index) in skills"
