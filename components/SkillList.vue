@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-4 skew-y-2 gap-2">
+  <div class="grid grid-cols-4 md:grid-cols-5 gap-2 skew-y-2">
     <div
       v-for="(skill, index) in skills"
       ref="card"
@@ -15,18 +15,54 @@
 </template>
 
 <script setup lang="ts">
+import { ref, onMounted, watch } from "vue";
+import { useMouseInElement } from "@vueuse/core";
+
 export type Skill = {
   name: string;
   icon: string;
 };
 
-const card = ref<HTMLElement[]>();
+const card = ref<HTMLElement[]>([]);
 
-const gridSize = 4; // Assuming a 4x4 grid
+const calculateGridSize = () => {
+  if (window.innerWidth >= 768) {
+    return 5; // 5 columns for medium and larger screens
+  } else {
+    return 4; // 4 columns for smaller screens
+  }
+};
 
 onMounted(() => {
+  _addRemoveHoverClass();
+
+  const gridSize = calculateGridSize();
+
+  window.addEventListener("resize", () => {
+    const newGridSize = calculateGridSize();
+    if (newGridSize !== gridSize) {
+      // Recalculate the adjacent cards if the grid size changes
+      _addRemoveHoverClass();
+    }
+  });
+});
+
+let watchHandlers: (() => void)[] = [];
+
+function _addRemoveHoverClass() {
+  // remove all the existing watch handlers
+  watchHandlers.forEach((stopWatch) => stopWatch());
+  // remove all the existing hover classes
+  card.value?.forEach((el) => {
+    el.classList.remove("card-hover");
+    el.classList.remove("adjacent-card");
+  });
+
+  const gridSize = calculateGridSize();
+
   card.value?.forEach((el, index) => {
     const { isOutside } = useMouseInElement(el);
+
     // Calculate the row and column of the current card
     const row = Math.floor(index / gridSize);
     const col = index % gridSize;
@@ -46,7 +82,7 @@ onMounted(() => {
       );
     });
 
-    watch(isOutside, (value) => {
+    const handle = watch(isOutside, (value) => {
       if (!value) {
         el.classList.add("card-hover");
         adjacentCards?.forEach((card) => card.classList.add("adjacent-card"));
@@ -57,8 +93,10 @@ onMounted(() => {
         );
       }
     });
+
+    watchHandlers.push(handle);
   });
-});
+}
 
 const skills: Skill[] = [
   { name: "C#", icon: "devicon:csharp" },
@@ -80,8 +118,6 @@ const skills: Skill[] = [
   { name: "MongoDB", icon: "devicon:mongodb" },
   { name: "Docker Compose", icon: "devicon:docker" }, // Note::Devicons not have a specific icon for Docker Compose
   { name: "React", icon: "devicon:react" },
-  // { name: "CSS", icon: "devicon:css3" },
-  // { name: "HTML", icon: "devicon:html5" },
   { name: "Git", icon: "devicon:git" },
 ];
 </script>
@@ -93,6 +129,7 @@ const skills: Skill[] = [
   transform: scale(115%) translateX(-30px) translateY(-20px);
   box-shadow: 0 0 20px #15ca82;
 }
+
 .adjacent-card {
   background-color: #ffffff;
   z-index: 10;
