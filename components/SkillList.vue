@@ -32,7 +32,7 @@
       v-for="(skill, index) in filteredSkills"
       ref="card"
       :key="skill.name"
-      class="col-span-1 transition-all duration-300 flex flex-col items-center text-center p-4 shadow-[0_0_5px_rgba(0,0,0,0.2)] rounded-lg"
+      class="transition-all duration-300 flex flex-col aspect-square items-center text-center p-4 shadow-[0_0_5px_rgba(0,0,0,0.2)] rounded-lg"
     >
       <Icon :name="skill.icon" class="w-6 h-6 lg:w-12 lg:h-12" />
       <p class="pt-2 text-xs lg:text-sm font-semibold text-gray-500">
@@ -98,7 +98,7 @@ const skills = ref<Skill[]>([
   { name: "Postman", icon: "devicon:postman", type: "Backend" },
   { name: "Express.js", icon: "devicon:express", type: "Backend" },
   { name: "MongoDB", icon: "devicon:mongodb", type: "Database" },
-  { name: "Docker Compose", icon: "devicon:docker", type: "Cloud" },
+  { name: "Docker", icon: "devicon:docker", type: "Cloud" },
   { name: "React", icon: "devicon:react", type: "Frontend" },
   { name: "Git", icon: "devicon:git", type: "Backend" },
 ]);
