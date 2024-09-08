@@ -18,6 +18,18 @@
         >
           rifat0153@gmail.com
         </NuxtLink>
+
+        <div class="flex gap-4 pt-2">
+          <template v-for="(social, index) in socials" :key="index">
+            <NuxtLink
+              :href="social.url"
+              target="_blank"
+              class="text-gray-500 hover:text-gray-800"
+            >
+              <Icon :name="social.icon" class="w-6 h-6" />
+            </NuxtLink>
+          </template>
+        </div>
       </div>
     </div>
 
@@ -30,3 +42,23 @@
     </p>
   </div>
 </template>
+
+<script setup lang="ts">
+const socials = [
+  {
+    name: "LinkedIn",
+    url: "http://linkedin.com/in/mahbubur2",
+    icon: "mdi:linkedin",
+  },
+  {
+    name: "GitHub",
+    url: "https://github.com/rifat0153",
+    icon: "mdi:github",
+  },
+  {
+    name: "Stack Overflow",
+    url: "https://stackoverflow.com/users/10734390/mahbuburrahman-rifat",
+    icon: "mdi:stackoverflow",
+  },
+] as const;
+</script>
