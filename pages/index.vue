@@ -11,3 +11,16 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+useHead({
+  title: "Mahbubur Rahman Portfolio | .NET, Vue.js, Flutter Expert",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Full-Stack Software Engineer | .NET, Vue.js, Flutter Expert | Data Science Enthusiast | Scalable Systems Architect",
+    },
+  ],
+});
+</script>

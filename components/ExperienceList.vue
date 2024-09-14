@@ -32,7 +32,7 @@
 
         <!-- Skills separated by a dot -->
         <div
-          class="flex flex-wrap gap-1 mt-2 text-[12px] text-gray-500 font-semibold"
+          class="flex flex-wrap gap-1 mt-2 text-sm text-gray-500 font-semibold"
         >
           <template v-for="(skill, index) in e.skills" :key="index">
             <p class="text-nowrap">
