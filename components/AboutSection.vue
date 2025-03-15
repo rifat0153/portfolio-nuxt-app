@@ -20,7 +20,7 @@
         </NuxtLink>
 
         <div class="flex gap-4 pt-2">
-          <template v-for="(social, _) in socials" :key="index">
+          <template v-for="(social, index) in socials" :key="index">
             <NuxtLink
               :href="social.url"
               target="_blank"
