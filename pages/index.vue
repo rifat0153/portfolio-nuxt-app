@@ -7,7 +7,7 @@
     </div>
 
     <div class="mt-10 pb-10">
-      <ExperienceList />
+      <ExperienceListNew />
     </div>
   </div>
 </template>

@@ -23,7 +23,18 @@ export const experiences: Experience[] = [
     location: "Milton Keynes, United Kingdom",
     startDate: "May 2022",
     endDate: "Present",
-    description: `Enhanced UK rail system monitoring by modernizing the tech stack and leading key initiatives. Developed SignalBox for Network Rail UK, migrated backend to .NET 8, and created SPAs with Vue.js and Nuxt.js. Built internal dashboards and mentored team members.`,
+    description: `
+    * Led the development of "Signal Box", a mission-critical monitoring system for Network Rail UK, automating rail issue detection and improving UK railway safety.
+    * Led migration from .NET Framework to .NET Core, modernizing system architecture, improving coding standards, and achieving significant performance enhancements.
+    * Built complex frontend dashboards for real-time data visualization, sensor monitoring, and node control via UI, significantly enhancing operational efficiency.
+    * Designed and implemented high-level features from scratch, handling architecture, coding, and performance optimizations.
+    * Developed and maintained critical backend services, ensuring high availability and system reliability.
+    * Tackled critical performance issues, leveraging custom SQL optimizations, caching strategies, and parallel processing techniques, reducing system latency by 50–90%.
+    * Implemented robust logging and monitoring, improving system observability and reducing debugging time.
+    * Extensive Azure & DevOps experience, utilizing Azure resources, CI/CD pipelines, and Infrastructure as Code for scalable and reliable deployments.
+    * Collaborated cross-functionally with hardware and data teams to integrate sensor data processing and ensure seamless system operations.
+    * Exceeded expectations beyond role level, consistently taking ownership of complex, high-impact projects and mentoring team members in .NET and frontend best practices.
+    `,
     skills: [
       "C#",
       ".NET Core 8",
@@ -47,7 +58,13 @@ export const experiences: Experience[] = [
     location: "Dhaka, Bangladesh",
     startDate: "Nov 2021",
     endDate: "Dec 2022",
-    description: `Led the development of "The Daily Star - Bangladesh" app, achieving over 100k downloads and 10,000 daily active users. Optimized app performance and ensured UI consistency with a Figma design system.`,
+    description: `
+    * Developed "The Daily Star" news app, improving UI performance by 2.5X, reducing crashes by 95%, improving loading time and enhancing user experience.
+    * Implemented offline first mode, allowing users to access news articles without an internet connection.
+    * Integrated push notifications, enabling real-time news updates and personalized alerts.
+    * Led debugging and crash analytics efforts, identifying root causes and implementing fixes to minimize app crashes.
+    * Collaborated with backend teams, ensuring smooth API integrations and real-time content updates.
+    `,
     skills: [
       "Flutter",
       "Rest APIs",
@@ -68,7 +85,13 @@ export const experiences: Experience[] = [
     location: "Dhaka, Bangladesh",
     startDate: "Dec 2020",
     endDate: "Sep 2021",
-    description: `Developed "Aalokito," a location-based charity app using Flutter and Firebase. Streamlined deployment with Docker, improving efficiency and consistency.`,
+    description: `
+    * Developed a Flutter and Node.js-based charity mobile app for location-based donation matching, featuring Firebase authentication and robust REST API integrations.
+    * Designed an intuitive and responsive UI, ensuring a seamless user experience for donors and recipients.
+    * Implemented secure authentication and authorization using Firebase Auth, improving app security and reliability.
+    * Integrated real-time notifications, enhancing user engagement and donation tracking.
+    * Improved deployment efficiency using Docker and Google Cloud Run, enabling scalable and automated deployments.
+    `,
     skills: ["Flutter", "Firebase", "Express.js", "MongoDB", "Docker Compose"],
   },
   {
@@ -81,7 +104,11 @@ export const experiences: Experience[] = [
     location: "Dhaka, Bangladesh",
     startDate: "Sep 2020",
     endDate: "Dec 2020",
-    description: `Developed and maintained web components using React.js and CSS. Gained proficiency in full-stack development and industry best practices.`,
+    description: `
+    * Built React.js web components to improve UI functionality and user experience.
+    * Quickly gained expertise in React, Node.js, and REST API development.
+    * Assisted in frontend development, ensuring pixel-perfect implementation of UI designs.
+    `,
     skills: ["React", "Node.js", "CSS", "HTML", "Restful APIs", "Git"],
   },
 ];
