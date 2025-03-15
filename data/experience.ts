@@ -24,16 +24,16 @@ export const experiences: Experience[] = [
     startDate: "May 2022",
     endDate: "Present",
     description: `
-    * Led the development of "Signal Box", a mission-critical monitoring system for Network Rail UK, automating rail issue detection and improving UK railway safety.
-    * Led migration from .NET Framework to .NET Core, modernizing system architecture, improving coding standards, and achieving significant performance enhancements.
-    * Built complex frontend dashboards for real-time data visualization, sensor monitoring, and node control via UI, significantly enhancing operational efficiency.
-    * Designed and implemented high-level features from scratch, handling architecture, coding, and performance optimizations.
-    * Developed and maintained critical backend services, ensuring high availability and system reliability.
-    * Tackled critical performance issues, leveraging custom SQL optimizations, caching strategies, and parallel processing techniques, reducing system latency by 50–90%.
-    * Implemented robust logging and monitoring, improving system observability and reducing debugging time.
-    * Extensive Azure & DevOps experience, utilizing Azure resources, CI/CD pipelines, and Infrastructure as Code for scalable and reliable deployments.
-    * Collaborated cross-functionally with hardware and data teams to integrate sensor data processing and ensure seamless system operations.
-    * Exceeded expectations beyond role level, consistently taking ownership of complex, high-impact projects and mentoring team members in .NET and frontend best practices.
+    * Led development of "Signal Box" for Network Rail UK automating rail issue detection.
+    * Migrated from .NET Framework to .NET Core, enhancing performance.
+    * Built frontend dashboards for real-time data visualization.
+    * Designed and implemented high-level features.
+    * Maintained backend services for high availability.
+    * Reduced system latency by 50–90% with optimizations.
+    * Improved system observability with robust logging.
+    * Extensive Azure & DevOps experience for scalable deployments.
+    * Integrated sensor data processing with hardware and data teams.
+    * Mentored team members in .NET and frontend best practices.
     `,
     skills: [
       "C#",
@@ -59,11 +59,11 @@ export const experiences: Experience[] = [
     startDate: "Nov 2021",
     endDate: "Dec 2022",
     description: `
-    * Developed "The Daily Star" news app, improving UI performance by 2.5X, reducing crashes by 95%, improving loading time and enhancing user experience.
-    * Implemented offline first mode, allowing users to access news articles without an internet connection.
-    * Integrated push notifications, enabling real-time news updates and personalized alerts.
-    * Led debugging and crash analytics efforts, identifying root causes and implementing fixes to minimize app crashes.
-    * Collaborated with backend teams, ensuring smooth API integrations and real-time content updates.
+    * Developed "The Daily Star" news app, improving UI performance and reducing crashes.
+    * Implemented offline mode for article access without internet.
+    * Integrated push notifications for real-time updates.
+    * Led debugging efforts to minimize app crashes.
+    * Ensured smooth API integrations with backend teams.
     `,
     skills: [
       "Flutter",
@@ -86,11 +86,11 @@ export const experiences: Experience[] = [
     startDate: "Dec 2020",
     endDate: "Sep 2021",
     description: `
-    * Developed a Flutter and Node.js-based charity mobile app for location-based donation matching, featuring Firebase authentication and robust REST API integrations.
-    * Designed an intuitive and responsive UI, ensuring a seamless user experience for donors and recipients.
-    * Implemented secure authentication and authorization using Firebase Auth, improving app security and reliability.
-    * Integrated real-time notifications, enhancing user engagement and donation tracking.
-    * Improved deployment efficiency using Docker and Google Cloud Run, enabling scalable and automated deployments.
+    * Developed a charity app with Flutter and Node.js, featuring Firebase authentication and REST API integrations.
+    * Designed a responsive UI for donors and recipients.
+    * Implemented secure authentication with Firebase Auth.
+    * Integrated real-time notifications for user engagement.
+    * Improved deployment with Docker and Google Cloud Run.
     `,
     skills: ["Flutter", "Firebase", "Express.js", "MongoDB", "Docker Compose"],
   },
@@ -105,9 +105,9 @@ export const experiences: Experience[] = [
     startDate: "Sep 2020",
     endDate: "Dec 2020",
     description: `
-    * Built React.js web components to improve UI functionality and user experience.
-    * Quickly gained expertise in React, Node.js, and REST API development.
-    * Assisted in frontend development, ensuring pixel-perfect implementation of UI designs.
+    * Built React.js components to enhance UI functionality.
+    * Gained expertise in React, Node.js, and REST API development.
+    * Assisted in frontend development for pixel-perfect UI designs.
     `,
     skills: ["React", "Node.js", "CSS", "HTML", "Restful APIs", "Git"],
   },
