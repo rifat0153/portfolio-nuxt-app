@@ -24,16 +24,16 @@ export const experiences: Experience[] = [
     startDate: "May 2022",
     endDate: "Present",
     description: `
-    * Led development of "Signal Box" for Network Rail UK automating rail issue detection.
-    * Migrated from .NET Framework to .NET Core, enhancing performance.
-    * Built frontend dashboards for real-time data visualization.
-    * Designed and implemented high-level features.
-    * Maintained backend services for high availability.
-    * Reduced system latency by 50–90% with optimizations.
-    * Improved system observability with robust logging.
-    * Extensive Azure & DevOps experience for scalable deployments.
-    * Integrated sensor data processing with hardware and data teams.
-    * Mentored team members in .NET and frontend best practices.
+    * • <b>Led development</b> of "Signal Box" for Network Rail UK, automating rail issue detection.
+    * • <b>Migrated</b> from .NET Framework to .NET Core, enhancing performance.
+    * • <b>Built</b> frontend dashboards for real-time data visualization.
+    * • <b>Designed and implemented</b> high-level features.
+    * • <b>Maintained</b> backend services for high availability.
+    * • <b>Reduced</b> system latency by 50–90% with optimizations.
+    * • <b>Improved</b> system observability with robust logging.
+    * • <b>Extensive</b> Azure & DevOps experience for scalable deployments.
+    * • <b>Integrated</b> sensor data processing with hardware and data teams.
+    * • <b>Mentored</b> team members in .NET and frontend best practices.
     `,
     skills: [
       "C#",
@@ -59,11 +59,11 @@ export const experiences: Experience[] = [
     startDate: "Nov 2021",
     endDate: "Dec 2022",
     description: `
-    * Developed "The Daily Star" news app, improving UI performance and reducing crashes.
-    * Implemented offline mode for article access without internet.
-    * Integrated push notifications for real-time updates.
-    * Led debugging efforts to minimize app crashes.
-    * Ensured smooth API integrations with backend teams.
+    * • <b>Developed</b> "The Daily Star" news app, improving UI performance and reducing crashes.
+    * • <b>Implemented</b> offline mode for article access without internet.
+    * • <b>Integrated</b> push notifications for real-time updates.
+    * • <b>Led</b> debugging efforts to minimize app crashes.
+    * • <b>Ensured</b> smooth API integrations with backend teams.
     `,
     skills: [
       "Flutter",
@@ -86,11 +86,11 @@ export const experiences: Experience[] = [
     startDate: "Dec 2020",
     endDate: "Sep 2021",
     description: `
-    * Developed a charity app with Flutter and Node.js, featuring Firebase authentication and REST API integrations.
-    * Designed a responsive UI for donors and recipients.
-    * Implemented secure authentication with Firebase Auth.
-    * Integrated real-time notifications for user engagement.
-    * Improved deployment with Docker and Google Cloud Run.
+    * • <b>Developed</b> a charity app with Flutter and Node.js, featuring Firebase authentication and REST API integrations.
+    * • <b>Designed</b> a responsive UI for donors and recipients.
+    * • <b>Implemented</b> secure authentication with Firebase Auth.
+    * • <b>Integrated</b> real-time notifications for user engagement.
+    * • <b>Improved</b> deployment with Docker and Google Cloud Run.
     `,
     skills: ["Flutter", "Firebase", "Express.js", "MongoDB", "Docker Compose"],
   },
@@ -105,9 +105,9 @@ export const experiences: Experience[] = [
     startDate: "Sep 2020",
     endDate: "Dec 2020",
     description: `
-    * Built React.js components to enhance UI functionality.
-    * Gained expertise in React, Node.js, and REST API development.
-    * Assisted in frontend development for pixel-perfect UI designs.
+    * • <b>Built</b> React.js components to enhance UI functionality.
+    * • <b>Gained</b> expertise in React, Node.js, and REST API development.
+    * • <b>Assisted</b> in frontend development for pixel-perfect UI designs.
     `,
     skills: ["React", "Node.js", "CSS", "HTML", "Restful APIs", "Git"],
   },
