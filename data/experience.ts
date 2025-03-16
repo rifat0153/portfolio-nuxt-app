@@ -24,7 +24,7 @@ export const experiences: Experience[] = [
     startDate: "May 2022",
     endDate: "Present",
     description: `
-    * • <b>Led development</b> of Signal Box for Network Rail UK, automating rail issue detection.
+    * • <b>Led development</b> of "Signal Box" for Network Rail UK, automating rail issue detection.
     * • <b>Migrated</b> from .NET Framework to .NET Core, enhancing performance.
     * • <b>Built</b> frontend dashboards for real-time data visualization.
     * • <b>Designed and implemented</b> high-level features.
