@@ -28,7 +28,7 @@
           <li
             v-for="(item, index) in e.description.split('* ').slice(1)"
             :key="index"
-            class="mb-1 text-pretty"
+            class="mb-2 text-pretty"
             v-html="item.trim()"
           ></li>
         </ul>
