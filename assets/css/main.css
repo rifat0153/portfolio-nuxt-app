@@ -3,6 +3,10 @@
 @plugin "@tailwindcss/container-queries";
 
 @theme {
-  --font-inter: "roboto", sans-serif;
+  --font-inter: "Inter", sans-serif;
   --font-inter--font-weight: 400;
+  --font-roboto: "Roboto", sans-serif;
+  --font-roboto--font-weight: 400;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-montserrat--font-weight: 400;
 }
