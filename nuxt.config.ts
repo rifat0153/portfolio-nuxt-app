@@ -17,9 +17,12 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  icon: {
+    mode: "css",
+    cssLayer: "base",
+  },
   modules: [
     "@vueuse/nuxt",
-    "@nuxtjs/tailwindcss",
     "@formkit/auto-animate",
     "@nuxtjs/google-fonts",
     "@nuxt/icon",

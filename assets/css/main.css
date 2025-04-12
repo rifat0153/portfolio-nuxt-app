@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@plugin "@tailwindcss/container-queries";
+
+@theme {
+  --font-inter: "roboto", sans-serif;
+  --font-inter--font-weight: 400;
+}
