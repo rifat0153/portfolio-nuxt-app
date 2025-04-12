@@ -14,12 +14,12 @@
 
 <script setup lang="ts">
 useHead({
-  title: "Mahbubur Rahman Portfolio | .NET, Vue.js, Flutter Expert",
+  title: "Mahbubur Rahman Portfolio | .NET, Typescript and Vue.js Expert",
   meta: [
     {
       name: "description",
       content:
-        "Full-Stack Software Engineer | .NET, Vue.js, Flutter Expert | Data Science Enthusiast | Scalable Systems Architect",
+        "Full-Stack Software Engineer | .NET, Typescript and Vue.js Expert",
     },
   ],
 });
