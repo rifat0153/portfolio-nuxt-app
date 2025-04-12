@@ -34,9 +34,7 @@
       </div>
     </div>
 
-    <p class="mt-10 font-semibold text-lg">About</p>
-
-    <p class="mt-3 text-gray-700 text-[15px] text-base leading-6">
+    <p class="mt-10 text-gray-700 text-[15px] text-base leading-6">
       Results-driven software engineer with 5+ years of experience building and
       optimizing scalable systems. Specializing in .NET, cloud technologies, and
       full-stack development, I transform complex challenges into
