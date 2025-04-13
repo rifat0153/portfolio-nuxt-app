@@ -3,12 +3,12 @@
     class="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-[1.02] duration-300"
   >
     <div class="h-48 overflow-hidden">
-      <img
+      <NuxtImg
         v-if="project.imageUrl"
         :src="project.imageUrl"
         :alt="project.title"
         class="w-full h-full object-cover"
-        onerror="this.src='/images/projects/default-project.png'"
+        :fallbackSrc="'/images/default-project.png'"
       />
       <div
         v-else

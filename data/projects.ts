@@ -24,7 +24,7 @@ export const projects: Project[] = [
       "Clean Architecture",
       "REST APIs",
     ],
-    imageUrl: "/images/projects/signalbox.png",
+    imageUrl: "/projects/signalbox.png",
     highlights: [
       "Architected and delivered full-stack application with complete ownership",
       "Designed both backend (.NET Core) and frontend (Vue.js) components",
@@ -47,7 +47,8 @@ export const projects: Project[] = [
       "SQL Server",
       "Dapper",
     ],
-    imageUrl: "/images/projects/webmonitor.png",
+    imageUrl:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-6b79f.appspot.com/o/portfolio-app-images%2Fwebmonitor.jpg?alt=media&token=0083a8a9-fdb8-42e7-afc2-c377184e5d8b",
     highlights: [
       "Achieved 1-20x latency reduction by optimizing data access layer",
       "Replaced EF Core with Dapper for improved performance",
@@ -70,7 +71,7 @@ export const projects: Project[] = [
       "Tailwind CSS",
       "Azure",
     ],
-    imageUrl: "/images/projects/production-analysis.png",
+    imageUrl: "/projects/production-analysis.png",
     highlights: [
       "Developed interactive graphs/tables for detailed analysis",
       "Implemented yield tracking and production trend identification",
@@ -93,7 +94,7 @@ export const projects: Project[] = [
       "Android",
       "iOS",
     ],
-    imageUrl: "/images/projects/daily-star.png",
+    imageUrl: "/projects/daily-star.png",
     highlights: [
       "Achieved 3x improvement in UI responsiveness",
       "Reduced app crashes by 95% through optimization",
@@ -116,7 +117,7 @@ export const projects: Project[] = [
       "Firebase",
       "Docker",
     ],
-    imageUrl: "/images/projects/charity-app.png",
+    imageUrl: "/projects/charity-app.png",
     highlights: [
       "Implemented secure authentication using Firebase Auth",
       "Designed RESTful APIs with Node.js and MongoDB",

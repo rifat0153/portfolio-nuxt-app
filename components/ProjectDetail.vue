@@ -79,12 +79,12 @@
       </div>
 
       <div class="bg-white rounded-lg overflow-hidden shadow-lg mb-10">
-        <img
+        <NuxtImg
           v-if="project.imageUrl"
           :src="project.imageUrl"
           :alt="project.title"
           class="w-full h-80 object-cover"
-          onerror="this.src='/images/projects/default-project.png'"
+          :fallbackSrc="'projects/default-project.png'"
         />
         <div
           v-else

@@ -1,18 +1,20 @@
 <template>
-  <div class="pt-40 font-inter">
-    <AboutSection />
+  <div class="max-w-xl mx-auto p-4 lg:p-0">
+    <div class="pt-40 font-inter">
+      <AboutSection />
 
-    <div class="mt-5 pb-10">
-      <SkillList />
-    </div>
+      <div class="mt-5 pb-10">
+        <SkillList />
+      </div>
 
-    <div class="mt-10 pb-10">
-      <ExperinceCardList />
+      <div class="mt-10 pb-10">
+        <ExperinceCardList />
+      </div>
     </div>
+  </div>
 
-    <div id="projects" class="mt-10 pb-10">
-      <ProjectList />
-    </div>
+  <div id="projects" class="mt-10 pb-10">
+    <ProjectList />
   </div>
 </template>
 

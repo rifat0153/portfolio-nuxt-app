@@ -1,8 +1,8 @@
 <template>
   <div class="tracking-tight leading-normal">
     <div class="flex gap-6 justify-start items-center">
-      <img
-        src="~/assets/my-passport-photo.jpg"
+      <NuxtImg
+        src="https://firebasestorage.googleapis.com/v0/b/portfolio-6b79f.appspot.com/o/portfolio-app-images%2Fmy-passport-photo.jpg?alt=media&token=d80dd533-e2dc-4c3f-ae0d-af10be75b074"
         alt="Mahbubur Rahman"
         class="w-28 h-28 rounded-full object-cover"
       />
@@ -10,7 +10,7 @@
       <div class="space-y-0.5 font-semibold">
         <p class="text-xl lg:text-2xl">Mahbubur Rahman</p>
 
-        <p class="text-gray-500">Software Engineer | Milton Keynes, UK</p>
+        <p class="text-gray-500">Software Engineer | Luton, UK</p>
 
         <NuxtLink
           href="mailto:rifat0153@gmail.com"
@@ -44,6 +44,8 @@
 </template>
 
 <script setup lang="ts">
+import { NuxtImg } from "#components";
+
 const socials = [
   {
     name: "LinkedIn",
