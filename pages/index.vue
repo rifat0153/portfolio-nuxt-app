@@ -9,6 +9,10 @@
     <div class="mt-10 pb-10">
       <ExperinceCardList />
     </div>
+
+    <div id="projects" class="mt-10 pb-10">
+      <ProjectList />
+    </div>
   </div>
 </template>
 
