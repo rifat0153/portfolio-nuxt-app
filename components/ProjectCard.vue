@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform hover:scale-[1.02] duration-300"
+    class="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-[1.02] duration-300"
   >
     <div class="h-48 overflow-hidden">
       <img
@@ -12,7 +12,7 @@
       />
       <div
         v-else
-        class="w-full h-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center"
+        class="w-full h-full bg-gray-200 flex items-center justify-center"
       >
         <span class="text-2xl text-gray-400">{{
           project.title.charAt(0)
@@ -20,23 +20,23 @@
       </div>
     </div>
     <div class="p-5">
-      <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
+      <h3 class="text-xl font-semibold mb-2 text-gray-900">
         {{ project.title }}
       </h3>
-      <p class="text-gray-600 dark:text-gray-300 mb-4 line-clamp-2">
+      <p class="text-gray-600 mb-4 line-clamp-2">
         {{ project.description }}
       </p>
       <div class="flex flex-wrap gap-2 mb-4">
         <span
           v-for="(tech, index) in project.technologies.slice(0, 3)"
           :key="index"
-          class="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100 text-xs font-medium rounded"
+          class="px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded"
         >
           {{ tech }}
         </span>
         <span
           v-if="project.technologies.length > 3"
-          class="px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-100 text-xs font-medium rounded"
+          class="px-2 py-1 bg-gray-100 text-gray-800 text-xs font-medium rounded"
         >
           +{{ project.technologies.length - 3 }} more
         </span>
@@ -44,7 +44,7 @@
       <div class="flex justify-between items-center">
         <NuxtLink
           :to="`/projects/${project.id}`"
-          class="text-blue-600 dark:text-blue-400 hover:underline"
+          class="text-blue-600 hover:underline"
         >
           View Details
         </NuxtLink>
@@ -54,7 +54,7 @@
             :href="project.githubUrl"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+            class="text-gray-700 hover:text-gray-900"
           >
             <svg
               class="w-5 h-5"
@@ -74,7 +74,7 @@
             :href="project.liveUrl"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+            class="text-gray-700 hover:text-gray-900"
           >
             <svg
               class="w-5 h-5"
