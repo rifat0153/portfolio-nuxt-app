@@ -24,7 +24,8 @@ export const projects: Project[] = [
       "Clean Architecture",
       "REST APIs",
     ],
-    imageUrl: "/projects/signalbox.png",
+    imageUrl:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-6b79f.appspot.com/o/senceive-1.png?alt=media&token=aec7c648-318c-4757-8275-6266b7cfeff7",
     highlights: [
       "Architected and delivered full-stack application with complete ownership",
       "Designed both backend (.NET Core) and frontend (Vue.js) components",
@@ -71,7 +72,8 @@ export const projects: Project[] = [
       "Tailwind CSS",
       "Azure",
     ],
-    imageUrl: "/projects/production-analysis.png",
+    imageUrl:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-6b79f.appspot.com/o/portfolio-app-images%2FSenceive-Logo-Strap-REV-WHITE-WEB-L.jpg?alt=media&token=cf90111e-1949-4e96-8f48-a0a96cb761ae",
     highlights: [
       "Developed interactive graphs/tables for detailed analysis",
       "Implemented yield tracking and production trend identification",
@@ -94,7 +96,8 @@ export const projects: Project[] = [
       "Android",
       "iOS",
     ],
-    imageUrl: "/projects/daily-star.png",
+    imageUrl:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-6b79f.appspot.com/o/portfolio-app-images%2Fdaily_start_1.webp?alt=media&token=81298ae9-6c64-4862-84f5-b46a36a17839 ",
     highlights: [
       "Achieved 3x improvement in UI responsiveness",
       "Reduced app crashes by 95% through optimization",
@@ -117,7 +120,8 @@ export const projects: Project[] = [
       "Firebase",
       "Docker",
     ],
-    imageUrl: "/projects/charity-app.png",
+    imageUrl:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-6b79f.appspot.com/o/app1_1.png?alt=media&token=937c37c9-4259-4c1f-b7ab-cd03375e7aa4",
     highlights: [
       "Implemented secure authentication using Firebase Auth",
       "Designed RESTful APIs with Node.js and MongoDB",
