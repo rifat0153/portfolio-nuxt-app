@@ -7,7 +7,7 @@
         v-if="project.cardImageUrl"
         :src="project.cardImageUrl"
         :alt="project.title"
-        class="w-full h-full object-cover"
+        class="w-full h-full object-contain"
         :fallbackSrc="'/images/default-project.png'"
       />
       <div

@@ -119,6 +119,27 @@ export const projects: Project[] = [
     period: "2021-2022",
   },
   {
+    id: "spotlas-app",
+    title: "The Spotlas Mobile Application",
+    description:
+      "A social platform for sharing and discovering local spots, with a focus on user-generated content.",
+    technologies: ["Flutter", "Dart", "REST APIs", "Android", "iOS"],
+    cardImageUrl:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-6b79f.appspot.com/o/spotlas-img-1.png?alt=media&token=06585427-a04e-463a-93b8-3cccd78dc0e1",
+    productImages: [
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-6b79f.appspot.com/o/spotlas_1.webp?alt=media&token=a745fd92-bcdf-4613-bef3-223fac97a74e",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-6b79f.appspot.com/o/spotlas_2.webp?alt=media&token=64793897-074b-4030-9375-49e57c527200",
+    ],
+    highlights: [
+      "Achieved 3x improvement in UI responsiveness",
+      "Reduced app crashes by 95% through optimization",
+      "Implemented offline-first functionality with local database",
+      "Developed server-configurable UI with admin control capabilities",
+    ],
+    role: "Flutter Developer",
+    period: "2021-2022",
+  },
+  {
     id: "charity-app",
     title: "Location-based Charity Application",
     description:
