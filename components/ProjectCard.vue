@@ -4,8 +4,8 @@
   >
     <div class="h-48 overflow-hidden">
       <NuxtImg
-        v-if="project.imageUrl"
-        :src="project.imageUrl"
+        v-if="project.cardImageUrl"
+        :src="project.cardImageUrl"
         :alt="project.title"
         class="w-full h-full object-cover"
         :fallbackSrc="'/images/default-project.png'"

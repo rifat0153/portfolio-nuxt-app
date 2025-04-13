@@ -78,21 +78,24 @@
         </div>
       </div>
 
-      <div class="bg-white rounded-lg overflow-hidden shadow-lg mb-10">
-        <NuxtImg
-          v-if="project.imageUrl"
-          :src="project.imageUrl"
-          :alt="project.title"
-          class="w-full h-80 object-cover"
-          :fallbackSrc="'projects/default-project.png'"
-        />
-        <div
-          v-else
-          class="w-full h-80 bg-gray-200 flex items-center justify-center"
-        >
-          <span class="text-5xl text-gray-400">{{
-            project.title.charAt(0)
-          }}</span>
+      <!-- Product Images Section -->
+      <div
+        v-if="project.productImages && project.productImages.length > 0"
+        class="mb-10"
+      >
+        <h2 class="text-2xl font-bold mb-4 text-gray-900">Product Images</h2>
+        <div class="flex flex-wrap gap-4">
+          <div
+            v-for="(image, index) in project.productImages"
+            :key="index"
+            class="w-64 h-48"
+          >
+            <NuxtImg
+              :src="image"
+              :alt="`${project.title} Product Image ${index + 1}`"
+              class="w-full h-full object-cover rounded-lg shadow-md"
+            />
+          </div>
         </div>
       </div>
 
